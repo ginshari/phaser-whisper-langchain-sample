@@ -28,3 +28,6 @@ poetry run python ./src/app.py
 
 入力した音声を元に、プレイヤーが上下左右に動きます  
 内容が理解できなかった場合はプレイヤーが考え込みます
+
+## スクリーンショット
+![20240703-1](https://github.com/ginshari/phaser-whisper-langchain-sample/assets/55611279/c5b4cecd-4fb4-4d06-b19d-dd3fa4224fac)
