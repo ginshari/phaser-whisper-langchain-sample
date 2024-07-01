@@ -17,6 +17,12 @@ poetry install --no-root
 OPENAI_API_KEY={YOUR_API_KEY}
 ```
 
+音声保存用フォルダを作成
+
+```bash
+mkdir tmp
+```
+
 ## 起動
 
 ```bash
