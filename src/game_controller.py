@@ -6,8 +6,9 @@ class GameController:
     def __init__(self):
         # LLMの初期化
         OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+        CHATGPT_MODEL = os.getenv("CHATGPT_MODEL")
         self.model = ChatOpenAI(
-            openai_api_key=OPENAI_API_KEY, model="gpt-3.5-turbo", temperature=0
+            openai_api_key=OPENAI_API_KEY, model=CHATGPT_MODEL, temperature=0
         )
         # 関数呼び出し用の辞書
         self.available_functions = {

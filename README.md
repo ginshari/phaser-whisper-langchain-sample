@@ -15,6 +15,7 @@ poetry install --no-root
 
 ```dotenv
 OPENAI_API_KEY={YOUR_API_KEY}
+CHATGPT_MODEL={MODEL_NAME}
 ```
 
 音声保存用フォルダを作成
